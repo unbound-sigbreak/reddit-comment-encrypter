@@ -1,0 +1,11 @@
+{
+  "name": "reddit-comment-encrypter",
+  "version": "1.0.0",
+  "description": "**AES-256-GCM or Hybrid RSA+AES comment overwriter with prefix/postfix support**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
