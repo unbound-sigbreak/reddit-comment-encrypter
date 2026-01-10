@@ -19,7 +19,7 @@ const opts = {
   // Modes / Keys (used in planning phase)
   mode: 'aes',                 // 'aes' | 'hybrid'
   embedPsk: false,             // AES: append "<delimiter><base64>" after ciphertext
-  pskDelim: 'AES-PSK:',        // configurable delimiter used for embed & detection
+  pskDelim: 'AES-PSK: ',        // configurable delimiter used for embed & detection
   pskFrom: null,               // base64 of 32 bytes; if set, NEVER auto-generate AES keys
   keyDir: path.join(os.homedir(), '.keys'),
   keyId: null,
